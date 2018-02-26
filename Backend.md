@@ -11,13 +11,14 @@
   **The server should implement user access control and expose data only to logged users.** You can implement it using whatever mechanism you prefer (token or session based, for instance).
   The users entity **must** have at least three fields: **Name**, **email**, and **state**.
   As a requirement, users can only see data from their state. If a user tries to access data from another state, the server should return a 401 Unauthorized.
-  It's part of the challenge to create/model an endpoint - will it be a GET or POST request - and how data would be selected using arguments or not. What we want to see here is how you think about modeling the endpoint and why you decided to do it this way. We expected that you are able to put yourself into the api's client position. 
+  It's part of the challenge to create an endpoint - `/api/v1/users` - and define how the client can filter data through it. What we want to see here is how you think about modeling the endpoint and why you decided to do it this way. We expected that you are able to put yourself into the api's client position. 
 
 ## Requirements
  - Create a readme describing how to run the project
  - Rest endpoints should not return data for logged users only
  - Deploy to a cloud provider of your choice (Heroku, AWS, Azure, Google)
  - Project **must** be versioned using git
+ - Preferably done using **node.js**
  - ### BONUS
    - Test your code
    - Document the API properly
