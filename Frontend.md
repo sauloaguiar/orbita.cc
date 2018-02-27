@@ -4,6 +4,7 @@
  - Working Solution
  - Project organization
  - Clean code
+ - Good design (follow the provided image)
  - Deployment
 
 ## Description
