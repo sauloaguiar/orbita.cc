@@ -15,7 +15,7 @@
 
 ## Requirements
  - Create a readme describing how to run the project
- - Rest endpoints should not return data for logged users only
+ - Rest endpoints should return data for logged users only
  - Deploy to a cloud provider of your choice (Heroku, AWS, Azure, Google)
  - Project **must** be versioned using git
  - Preferably done using **node.js**
