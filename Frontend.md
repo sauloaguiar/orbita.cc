@@ -18,7 +18,7 @@
   The login/signup feature can be mocked. No need to come up with a server implementation for it.
   Only logged users should be able to access the graphics area.
   Use the below image as a guide for your implementation.
-  ![Dashboard look](https://github.com/vinimdocarmo/Orbita.cc/blob/master/data/dahsboard.jpg "Dashboard")
+  ![Dashboard look](https://github.com/sauloaguiar/orbita.cc/blob/master/data/dahsboard.jpg "Dashboard")
 
   
   
